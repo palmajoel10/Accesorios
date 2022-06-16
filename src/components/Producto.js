@@ -1,4 +1,5 @@
-import Productos from './Productos'
+import { Component } from 'react'
+
 class Producto extends Component {
     render() {
         const { producto } = this.props
